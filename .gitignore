@@ -1,0 +1,10 @@
+.idea
+.ssh
+.git
+.DS_Store
+*__pycache__
+old
+app/assets/*.jpg
+app/models/*/*
+app/cache/*
+app/utils/data/spacy_data/en_core_web_lg/*

@@ -1,0 +1,105 @@
+p, h1, h2, h3, a, Label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner {
+    height: 60px;
+    padding: 5px 0px 5px 0px;
+    display: flex; /* Use flex container to align items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0px 10px 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Align columns at the top */
+}
+
+.dropdown{
+    margin: 5px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.run-button{
+    margin: 5px 5px 10px 0px;
+}
+
+input{
+    display: flex;
+    resize: none;
+    height: 25px;
+    margin-top: 5px;
+    margin: 5px 10px 5px 0px;
+}
+
+/* Left column */
+#left-column {
+    border: 1px solid #b0b0b0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-right: 10px;
+    width: 35%;
+    height: 100%;
+    max-width: 300px;
+}
+
+.data-processing p{
+    color: #6b6b6b;  /* dark-grey */
+}
+
+.data-processing{
+    background-color: #d1f0da;  /* light-green */
+    font-size: 14px;
+    padding: 0px;
+    visibility: hidden;
+}
+
+#left-column input{
+    width: 100px;
+}
+
+/* Right column */
+#right-column {
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+    max-width: 60%;
+    width: 700px;
+}
+
+#right-column input{
+    width: 380px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertical center alignment */
+    margin-bottom: 10px;
+}
+
+.container > button{
+    height: 30px;
+}
+
+.sent-block{
+    margin-top: 10px;
+}
+
+.cleaning-block{
+    margin-top: 10px;
+}
+
+
+#output-frequency-img{
+    max-width: 600px;
+    max-height: 350px;
+}
