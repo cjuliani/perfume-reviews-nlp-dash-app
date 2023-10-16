@@ -1,6 +1,6 @@
 # Perfume Reviews Analysis - NLP, Dash App
 
-Simple web application with NLP tools exploring the words frequency and sentiments from 20k+ reviews
+Simple web application with NLP tools exploring the words frequency and sentiments from **20k+ reviews**
 written by international customers for a famous perfume product (Lancôme). Reviews are first extracted and cleaned 
 from eventual emojis, then translated in english e.g., from french, russian, chinese, italian, 
 using the Marian translation models pre-trained by the **NLP group at the University of Helsinki** (available via the 
